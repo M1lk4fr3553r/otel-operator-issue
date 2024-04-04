@@ -7,5 +7,5 @@ kubectl apply -f https://github.com/cert-manager/cert-manager/releases/download/
 
 ## Install
 ``` bash
-helm dep update otel-operator && helm package otel-operator && helm install otel-operator otel-operator-0.1.0.tgz
+helm dep update otel-operator-chart && helm package otel-operator-chart && helm install otel-operator-chart otel-operator-chart-0.1.0.tgz
 ```

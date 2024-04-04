@@ -1,4 +1,4 @@
-replicaCount: 1
+nameOverride: deployment-to-instrument
 
 image:
   repository: nginx
